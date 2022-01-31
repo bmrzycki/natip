@@ -10,11 +10,11 @@ resolver is down and also reduces your bandwidth to any one resolver.
 There are arguments to select exactly one resolver or to remove 1+
 resolver for debug or personal preference.
 
-If the [BIND 9+|https://www.isc.org/bind/] `dig` client is in
+If the [BIND 9+](https://www.isc.org/bind/) `dig` client is in
 your `PATH`, or specified with `--dig-bin`, additional DNS
 resolution methods are added.
 
-Finally, if [stunip|https://github.com/bmrzycki/stunip] `stunip.py`
+Finally, if [stunip](https://github.com/bmrzycki/stunip) `stunip.py`
 is in your `PATH`, or specified with `--stunip-bin`, additional STUN
 resolution methods are added.
 
