@@ -256,9 +256,6 @@ def main(args_raw):
     na.add_dns(servers=['ns1.google.com', 'ns2.google.com',
                         'ns3.google.com', 'ns4.google.com' ],
                dns_name='o-o.myaddr.l.google.com', dns_type='txt')
-    # https://gist.github.com/ipoddubny/27111c83c3a2870a55e1
-    na.add_dns(servers=['208.67.222.222', '208.67.222.222'],
-               dns_name='myip.opendns.com')
 
     # STUN servers curated from:
     #  https://github.com/pradt2/always-online-stun/blob/master/valid_hosts.txt
