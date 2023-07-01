@@ -219,14 +219,12 @@ def main(args_raw):
     na.add_www('http://icanhazip.com')
     na.add_www('http://v4.ident.me')
     na.add_www('http://ifconfig.me')
-    na.add_www('https://ip-addr.es')
     na.add_www('http://ipecho.net/plain')
     na.add_www('https://api.ipify.org')
     na.add_www('http://ipinfo.io/ip')
     na.add_www('http://4.ipquail.com/ip')
     na.add_www('http://myexternalip.com/raw')
     na.add_www('https://ipaddr.pub/cli', name='ipaddr-pub')
-    na.add_www('https://myip.dnsomatic.com')
 
     # https://bit.ly/2AHfQMb
     # nameservers discovered via:
